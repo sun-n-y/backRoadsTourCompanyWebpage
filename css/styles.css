@@ -405,6 +405,23 @@ Featured Tours
   text-align: center;
 }
 
+/* extra feature for cards */
+.tour-title {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tour-title p,
+.tour-title h4 {
+  margin-bottom: 0.75rem;
+  line-height: 1.25;
+}
+
+.tour-title p {
+  color: var(--clr-grey-7);
+}
+
 @media screen and (min-width: 768px) {
   .featured-center {
     display: flex;
@@ -421,6 +438,7 @@ Featured Tours
     flex: 0 0 calc(33.333% - 2rem);
   }
 }
+
 /*
 =============== 
 Contact
