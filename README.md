@@ -24,5 +24,6 @@
 - ### auto prefixer
 - ### media queries
 - ### font awesome
+- ### hosted webpage on netlify
 
 [Back to Top](#custom_anchor_name)
